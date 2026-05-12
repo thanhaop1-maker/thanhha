@@ -798,6 +798,92 @@
                 font-size: 0.85rem;
             }
         }
+
+        /* Footer Contact Section */
+        .footer-contact {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(0, 212, 255, 0.1);
+            padding: 60px 10%;
+            text-align: center;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .footer-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .footer-contact h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            color: var(--accent-primary);
+            text-shadow: 0 0 15px var(--accent-primary);
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.1rem;
+        }
+
+        .contact-icon {
+            font-size: 1.5rem;
+        }
+
+        .contact-item a {
+            color: var(--accent-primary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+
+        .contact-item a:hover {
+            color: var(--accent-secondary);
+            border-bottom: 2px solid var(--accent-primary);
+            text-shadow: 0 0 15px var(--accent-primary);
+        }
+
+        .footer-credit {
+            color: rgba(244, 244, 244, 0.6);
+            font-size: 0.9rem;
+            margin-top: 20px;
+        }
+
+        [data-theme="light"] .footer-credit {
+            color: rgba(18, 18, 18, 0.6);
+        }
+
+        @media (max-width: 768px) {
+            .footer-contact {
+                padding: 40px 20px;
+            }
+
+            .footer-contact h3 {
+                font-size: 1.5rem;
+            }
+
+            .contact-info {
+                gap: 20px;
+            }
+
+            .contact-item {
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -875,7 +961,7 @@
             <!-- Project 3: Lunar New Year Design -->
             <div class="project-card" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); position: relative;">
                 <div class="project-overlay" style="position: static; opacity: 1; background: rgba(0,0,0,0.25); border: none; box-shadow: none;">
-                    <h3 class="project-title">🎉 Năm Bình Ngô 2026</h3>
+                    <h3 class="project-title">🎉 Năm Bính Ngọ 2026</h3>
                     <p class="project-desc">Thiết kế Tết 2026 sang trọng với yếu tố truyền thống Việt Nam, vàng huy hoàng và hoa mai.</p>
                     <div class="project-tags">
                         <span class="project-tag">Photoshop</span>
@@ -1026,6 +1112,24 @@
             </div>
         </div>
     </section>
+
+    <!-- Contact Footer Section -->
+    <footer class="footer-contact">
+        <div class="footer-container">
+            <h3>Liên Hệ Tôi</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <a href="mailto:Thanhabonguyen@gmail.com">Thanhabonguyen@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <a href="tel:0938203697">0938203697</a>
+                </div>
+            </div>
+            <p class="footer-credit">&copy; 2026 Hà Trần Phú Thành | Digital Graphic Designer</p>
+        </div>
+    </footer>
 
     <script>
         // Script xử lý chế độ Dark/Light
