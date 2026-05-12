@@ -8,7 +8,7 @@ Chào mừng đến với không gian lưu trữ của một tay thiết kế Đ
 - 🎓 Đang mài giũa kỹ năng trong ngành Đồ hoạ kỹ thuật số & Thiết kế đa phương tiện.
 - 💡 Tư duy tập trung vào: Giao diện UI/UX, 3D Modeling, và Conceptual Branding.
 - ⚽ Khi không ngồi "nặn" pixel hay kéo vector, bạn sẽ thấy tôi ngoài sân bóng đá hoặc đang đi dạo cùng chú Husky của mình.
-- 🏆 **Thành tựu rực rỡ (For fun):** Cúp học 16 lần, "sở hữu" 02 bằng giả (đùa thôi, uy tín 100% nha).
+- 🏆 **Thành tựu rực rỡ (For fun):** 12 năm phổ thông trong top 10, sở hữu 1 bằng tốt nghiệp
 
 🛠️ **Vũ khí tác chiến:**
 - **Design:** Figma, Adobe Photoshop, Adobe Illustrator, Blender.
