@@ -37,7 +37,7 @@ Tôi đã dùng prompt sau để AI định hình phong cách và tạo ra bộ 
 
 📫 **Kết nối với tôi:**
 - 🌐 **Portfolio:** [Chèn link trang web của bạn vào đây]
-- 📧 **Email:** [Chèn email của bạn vào đây]
+- 📧 **Email:** Thanhabonguyen@gmail.com
 - 🎨 **Behance / Dribbble:** [Chèn link nếu có]
 
 *"Chuyên gia sáng tạo hình ảnh. Bậc thầy của sự linh hoạt."* 🚀
